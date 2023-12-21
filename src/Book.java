@@ -4,6 +4,7 @@ public class Book {
     private int publishingYear;
 
     public Book(Author author, String bookName, int publishingYear) {
+        this.author = author;
         this.bookName = bookName;
         this.publishingYear = publishingYear;
     }
