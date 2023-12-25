@@ -1,12 +1,11 @@
+import java.util.Locale;
 import java.util.Objects;
 
 public class Author {
     private String author;
 
-
     public Author(String author) {
-        this.author = author;
-
+        this.author = author.toUpperCase();
     }
 
     public boolean equals(Object o) {

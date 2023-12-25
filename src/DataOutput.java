@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class DataOutput {
     public static void main(String[] args) {
-        Author bulgakov = new Author("Михаил Булгаков");
+        Author bulgakov = new Author("МИхаил Булгаков");
         Book book = new Book(bulgakov, " Мастер и Маргарита ", 2015);
         book.setPublishingYear(2018);
         System.out.println(book);
